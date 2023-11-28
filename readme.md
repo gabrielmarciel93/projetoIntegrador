@@ -1,7 +1,7 @@
 <!-- Esse exemplo e um pouco mais elaborado para  quem quer mostra mais informações sobre seus projetos pessoais -->
 
 
-# 🚀 Projeto Portifólio Gabriel Marciel
+# 🚀 Projeto - Portifólio Gabriel Marciel
 
 ## 📝 Descrição
 
