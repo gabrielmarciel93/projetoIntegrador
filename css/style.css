@@ -1,22 +1,89 @@
 body{
     background-color: #FFFF;
     font-family: 'Poppins', sans-serif;
+    padding: 110px;
 }
 
+/* Menu */
+.menu{
+  text-align: center; 
+  text-decoration: solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #006e9d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-a{
-    color:#006e9d;
-    text-decoration:solid;
+}
+.ul-menu{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  height: 100%;
+  margin: 0;
 }
 
-a:hover{
-    color:#000B9E;
+.li-menu{
+  margin-right: 10px;
+  padding-right: 30px;
 }
 
-#corTitulo{
-    color:#006e9d
-    
+.li-menu-social{
+  margin-right: 10px;
 }
+
+.a-menu{
+  color:#FFFF;
+  text-decoration: solid;
+  
+}
+
+.a-menu:hover{
+  color:#80d9ff;
+  
+}
+
+.titulo1{
+  color:#006e9d;
+  font-size: 250%;
+}
+
+/* Fim Menu */
+
+/* Footer */
+footer{
+  text-align: center; 
+  text-decoration: solid;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  color: #cecece;
+  background-color: #006e9d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.a-footer{
+  color:rgb(0, 255, 213);
+  text-decoration: solid;
+ 
+}
+
+.a-footer:hover{
+  color:#80d9ff;
+  
+}
+
+/* Fim Footer */
 
 #bordeFormu{
     border-style: groove;
@@ -160,4 +227,13 @@ button {
 
 button:hover {
     background-color: #006e9d;
+}
+
+a{
+  color:#006e9d;
+  text-decoration:solid;
+}
+
+a:hover{
+  color:#000B9E;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+<head id="home">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Gabriel Marciel | Dev. Front-End</title>
@@ -23,24 +23,22 @@
 
 <body>
     <!--Menu com links-->
-    <table cellpadding="10">
-
-        <table align="center" width="80%">
-            <tr>
-                <td align="center" width="100px"><img width="100px" src="imagem/logoGabriel.png"></img></td>
-                <td align="center"><a href="index.html">Home</a></td>
-                <td align="center"><a href="projetos.html">Projetos</a></td>
-                <td align="center"><a href="curriculo.html">Curriculo</a></td>
-                <td align="center"><a href="sobre.html">Sobre</a></td>
-                <td align="center"><a href="contato.html">Contato</a></td>
-                <td><a href="https://gabrielmarciel.com.br/"><i class="fas fa-globe"></i></a></td>
-                <td><a href="https://www.facebook.com/gabrielmarciel"><i class="fab fa-facebook"></i></a>
-                </td>
-                <td><a href="https://www.instagram.com/gabrielmarcieloficial/" target="_blank"><i
-                            class="fab fa-instagram"></i></a></td>
-                <td><a href="https://github.com/gabrielmarciel93" target="_blank"><i class="fab fa-github"></i></a></td>
-            </tr>
-        </table>
+    <div class="menu">
+        <nav>
+            <ul class="ul-menu">
+                <li class="li-menu"><img width="60px" src="imagem/logoGabrielBranca.png"></img></li>
+                <li class="li-menu"><a class="a-menu" href="#home">Home</a></li>
+                <li class="li-menu"><a class="a-menu"href="projetos.html">Projetos</a></li>
+                <li class="li-menu"><a class="a-menu"href="curriculo.html">Curriculo</a></li>
+                <li class="li-menu"><a class="a-menu"href="sobre.html">Sobre</a></li>
+                <li class="li-menu"><a class="a-menu" href="contato.html">Contato</a></li>
+                <li class="li-menu-social"><a class="a-menu" href="https://gabrielmarciel.com.br/" target="_blank"><i class="fas fa-globe"></i></a></li>
+                <li class="li-menu-social"><a class="a-menu" href="https://www.facebook.com/gabrielmarciel" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li class="li-menu-social"><a class="a-menu" href="https://www.instagram.com/gabrielmarcieloficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="li-menu-social"><a class="a-menu" href="https://github.com/gabrielmarciel93" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </nav>
+    </div>
         <!--Cabeçalho - Nome e Foto-->
         <table align="center" width="80%" style="margin: auto;">
             <colgroup><!--Para o HTML entender que a table está divida em 2 partes-->
@@ -50,7 +48,7 @@
             <tr>
                 <td>
                     <p>
-                    <h1 align="right" id="corTitulo">Desenvolvedor<br>Front-End</p>
+                    <h1 align="right" class="titulo1" >Desenvolvedor<br>Front-End</p>
                 </td>
                 <td><img src="imagem/gabriel.png" alt="logoGabriel" width="90%">
                 </td>
@@ -115,10 +113,10 @@
 
             <tr>
                 <td>
-                    <p align="center"> Criado por <a href="https://www.instagram.com/gabrielmarcieloficial/"
-                            target="_blank">Gabriel Marciel</a> no curso de
-                        Desenvolvedor Front-End - SENAI/Maracanã - Prof. Anthony Freitas</p>
-                    <p align="center">Todos os direitos reservados ©
+                    <p align="center"> Criado por <a class="a-footer" href="https://www.instagram.com/gabrielmarcieloficial/"
+                            target="_blank"><b>Gabriel Marciel</b></a> no curso de
+                        Desenvolvedor Front-End - SENAI/Maracanã - Prof. Anthony Freitas<br>
+                   Todos os direitos reservados ©
                         <script>document.write(new Date().getFullYear())</script>
                     </p>
                     </bgcolor=#1961b1>
