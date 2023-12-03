@@ -56,7 +56,7 @@ body{
 /* Fim Menu */
 
 /* Footer */
-footer{
+.footerstyle{
   text-align: center; 
   text-decoration: solid;
   position: fixed;
