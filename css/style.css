@@ -3,6 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 a{
     color:#006e9d;
     text-decoration:solid;
@@ -25,7 +26,7 @@ a:hover{
 .frame {
     width: 90%;
     margin: 40px auto;
-    text-align: center;
+    
   }
   button {
     margin: 20px;
