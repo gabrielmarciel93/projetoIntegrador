@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body class="colorbar-img">
     <!--Menu com links -->
     <div class="menu">
         <nav>
@@ -62,7 +62,7 @@
         <tr>
             <td>
                 <p>
-                <h1 align="right" class="titulo1">Desenvolvedor<br>Front-End</p>
+                <h1 align="right" class="titulo1">Desenvolva seu site<br>agora mesmo!</p>
             </td>
             <td>
                 <!-- <td><img src="imagem/gabriel.png" alt="logoGabriel" width="90%"> -->
@@ -122,7 +122,8 @@
             </td>
         </tr>
     </table>
-
+    <br>
+    <br>
     <!--Projetos-->
     <table id="projetos" align="center" width="80%" style="margin: auto;">
         <colgroup><!--Para o HTML entender que a table está divida em 2 partes-->
@@ -132,7 +133,7 @@
         <tr>
             <td>
                 <p>
-                <h1 align="center" id="corTitulo">Projetos</p>
+                <h1 class="titulo1">Projetos</p>
             </td>
             <!-- <td><img src="imagem/projetos.png" alt="logoGabriel" width="70%"> -->
             <td>
@@ -228,7 +229,8 @@
         </tr>
     </table>
     </table>
-
+    <br>
+    <br>
     <!--Cabeçalho - Nome e Foto-->
     <table id="curriculo" align="center" width="80%" style="margin: auto;">
         <colgroup><!--Para o HTML entender que a table está divida em 2 partes-->
@@ -238,7 +240,7 @@
         <tr>
             <td>
                 <p>
-                <h1 align="right" id="corTitulo"><b>Gabriel Marciel</b></p>
+                <h1 class="titulo2"><b>Gabriel Marciel</b></p>
                     <p>
                     <h3 align="right">Analista de Ti<br> & Desenvolvedor Front-End</h3>
                     </p>
@@ -353,7 +355,7 @@
         <tr>
             <td>
                 <p>
-                <h1 align="right" id="corTitulo">Desenvolvedor<br>Front-End</p>
+                <h1 class="titulo2">Desenvolvedor<br>Front-End</p>
             </td>
             <td><img src="imagem/gabriel.png" alt="logoGabriel" width="90%">
             </td>
@@ -427,19 +429,19 @@
         <tr>
             <td>
                 <div class="container">
-                    <h2>Entre em contato conosco!</h2>
-                    <form action="#" method="post" id="contact-form">
-                        <label for="name">Nome:</label>
-                        <input type="text" id="name" name="name" required>
+                    <h2 class="titulo3">Entre em contato conosco!</h2>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nomeCliente" name="nome" required placeholder="Digite seu nome">
 
                         <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="emailCliente" id="emailCliente" name="email" required placeholder="Digite seu e-mail">
 
-                        <label for="message">Mensagem:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-
-                        <button type="submit"><b>Enviar Mensagem</b></button>
-                    </form>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagemCliente" name="mensagemCliente" rows="4" required placeholder="Digite sua mensagem aqui!"></textarea>
+                        <label id="mensagemConfirmacao"></label><br>
+                        <button onclick="formulario()"><b>Enviar Mensagem</b></button>
+                    </div>
                 </div>
             </td>
 
