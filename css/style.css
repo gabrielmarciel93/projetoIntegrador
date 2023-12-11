@@ -64,6 +64,7 @@ animation: beta-gradient 100s linear infinite;
   align-items: center;
   justify-content: center;
   z-index: 1;
+  border-radius: 10px;
 
 }
 .ul-menu{
